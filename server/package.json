@@ -1,0 +1,14 @@
+{
+    "name": "network-test-server",
+    "version": "1.0.0",
+    "main": "index.ts",
+    "type": "module",
+    "scripts": {
+        "start": "bun run index.ts",
+        "dev": "bun --hot index.ts",
+        "test": "bun test"
+    },
+    "devDependencies": {
+        "@types/bun": "latest"
+    }
+}
